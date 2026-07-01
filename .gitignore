@@ -1,0 +1,14 @@
+# Generated output (created in the user's project, not this repo)
+gig-config.json
+fiverr-catalog.html
+pdfs/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
