@@ -1,0 +1,23 @@
+{
+  "name": "mehtab-skills",
+  "version": "1.1.0",
+  "description": "Freelance business skills plus a model-routing expert team: Fiverr/Upwork selling, contracts, clients, agency ops, and a router that delegates tasks to haiku/sonnet/opus/fable specialist subagents (web dev, AI, DevOps, product, security, data, docs).",
+  "author": {
+    "name": "mehtab78",
+    "email": "mehtab6722@gmail.com",
+    "url": "https://github.com/mehtab78"
+  },
+  "homepage": "https://github.com/mehtab78/skills",
+  "repository": "https://github.com/mehtab78/skills",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "skills",
+    "model-routing",
+    "orchestration",
+    "subagents",
+    "freelance",
+    "fiverr",
+    "upwork"
+  ]
+}

@@ -1,8 +1,10 @@
-# Freelance Skills — for Claude Code
+# Skills — for Claude Code
 
-A collection of independent [Claude Code](https://claude.com/claude-code) skills
-for freelancers who sell on marketplaces like **Fiverr** and **Upwork**. Each
-skill is self-contained and triggers on its own — install one, several, or all.
+A collection of independent [Claude Code](https://claude.com/claude-code) skills:
+a **freelance business pack** (Fiverr, Upwork, contracts, clients, agency) and a
+**model-routing expert team** (a router that delegates to specialist subagents on
+the cheapest capable model tier). Each skill is self-contained and triggers on
+its own — install one, several, or all.
 
 The collection spans the whole freelancing loop: **finding work** (`job-search`),
 **choosing a platform and pricing** (`freelance`), **building and optimizing your
@@ -36,6 +38,22 @@ contracts, and agency growth.
 other helps you *sell and scale* them. `clients`, `contracts`, and `agency`
 cover everything after the sale.
 
+### Model routing & expert team
+
+| Skill | What it does | Type |
+|-------|--------------|------|
+| [`model-router`](skills/model-router/) | Classifies any task, picks the cheapest capable model tier (haiku → sonnet → opus → fable), delegates to the right expert via subagents, validates output, escalates on failure. Fable falls back to opus-with-decomposition when unavailable. | Orchestrator |
+| [`expert-web-developer`](skills/expert-web-developer/) | Frontend/backend implementation, refactors, tests. | Specialist |
+| [`expert-ai-engineer`](skills/expert-ai-engineer/) | LLM integrations, prompts, RAG pipelines, evals. | Specialist |
+| [`expert-devops`](skills/expert-devops/) | CI/CD, containers, migrations, incident strategy. | Specialist |
+| [`expert-product-strategist`](skills/expert-product-strategist/) | Scoping, prioritization, roadmaps, metrics. | Specialist |
+| [`expert-security-reviewer`](skills/expert-security-reviewer/) | Security reviews, threat models; auto second-pass gate on risky work. | Specialist |
+| [`expert-data-analyst`](skills/expert-data-analyst/) | SQL, analysis, metric sanity checks. | Specialist |
+| [`expert-technical-writer`](skills/expert-technical-writer/) | READMEs, runbooks, changelogs, guides. | Specialist |
+
+Install `model-router` together with the experts — it delegates by pointing
+subagents at their `SKILL.md` files.
+
 ## Install
 
 Each top-level folder under `skills/` is a standalone skill. Drop the ones you
@@ -60,6 +78,14 @@ Then describe what you need in natural language — e.g. *"help me set up my
 Fiverr gigs, I do n8n automation and AI chatbots"* or *"draft an Upwork proposal
 for this job post"* — and the matching skill triggers.
 
+### As a Claude Code plugin
+
+```bash
+claude  # then inside the session:
+/plugin marketplace add mehtab78/skills
+/plugin install mehtab-skills@mehtab78-skills
+```
+
 ## Structure
 
 ```
@@ -73,7 +99,10 @@ for this job post"* — and the matching skill triggers.
 │   ├── negotiate/              # rate & deal negotiation (SKILL.md + references/)
 │   ├── clients/                # personal client system (SKILL.md only)
 │   ├── contracts/              # contract tracking & alerts (SKILL.md + references/)
-│   └── agency/                 # scaling into an agency (SKILL.md + references/)
+│   ├── agency/                 # scaling into an agency (SKILL.md + references/)
+│   ├── model-router/           # tier router & orchestrator (SKILL.md + references/)
+│   └── expert-*/               # 7 specialist skills (web, ai, devops, product, security, data, writer)
+├── .claude-plugin/             # plugin.json + marketplace.json (installable as a Claude Code plugin)
 ├── LICENSE                     # MIT
 └── README.md
 ```

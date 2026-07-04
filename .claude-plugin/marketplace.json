@@ -1,0 +1,14 @@
+{
+  "name": "mehtab78-skills",
+  "owner": {
+    "name": "mehtab78",
+    "email": "mehtab6722@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "mehtab-skills",
+      "source": ".",
+      "description": "All skills in this repo: freelance business pack + model-router expert team."
+    }
+  ]
+}
