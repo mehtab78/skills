@@ -4,6 +4,11 @@ Not legal advice, orientation. The stakes rise fast once real clients and money
 are involved, so when in doubt, get proper counsel and read each platform's
 current terms.
 
+This is the canonical cross-jurisdiction treatment; the `fiverr` and `upwork`
+skills point back here instead of repeating it, and only carry their own
+platform-specific deltas. If you update the EU/US/UK disclosure or copyright
+rules below, that's the one place it needs to change.
+
 ## Terms-of-service risk
 
 Every major platform treats full automation and impersonation as serious

@@ -30,31 +30,20 @@ A simple, honest gig-FAQ line works: that you use professional tools including A
 assistance, that you review and customize everything yourself, and that you're
 happy to explain your workflow.
 
-## Who owns AI output
+## Who owns AI output, on Fiverr specifically
 
-Copyright in purely AI-generated content is unsettled and varies by country.
-Broadly, the US grants no copyright to purely AI-made work, the EU wants genuine
-human creative input, and the UK offers limited protection. The practical upshot:
+**Fiverr's terms hand the buyer full rights on payment**, which means you must
+actually own those rights before you can pass them on. Pure AI output may not be
+copyrightable in the first place (this varies by country), so if you rely on it
+heavily, meaningfully edit it before delivery, the edited version is a far more
+defensible and transferable deliverable. Also confirm your AI tool allows
+commercial resale before you lean on it: most paid assistants do, but some
+image/code models carry license conditions worth checking.
 
-- **Pure AI output** may not be copyrightable: the buyer gets the files but not
-  necessarily exclusive IP.
-- **AI output you meaningfully edit** is far more defensible and transferable.
-- **Fiverr's terms** hand the buyer full rights on payment, which means you must
-  actually own those rights to pass them on.
-
-Also confirm your AI tool allows commercial resale before you rely on it, most
-paid assistants do, but some image/code models carry license conditions worth
-checking.
-
-## Jurisdiction quick notes
-
-- **EU:** the AI Act and consumer-rights rules push higher transparency; GDPR
-  applies if you handle personal data.
-- **US:** misrepresenting AI work as fully human can run into FTC deception
-  rules, and some states have bot-disclosure laws.
-- Fiverr's ToS governs platform disputes wherever you are, but EU buyers may have
-  stronger consumer-protection footing. Keeping evidence of your human
-  involvement is smart everywhere.
+For the general cross-jurisdiction copyright and disclosure framework (what
+counts as copyrightable, EU/US/UK differences, when disclosure is legally
+required rather than just good practice), see the `freelance` skill's
+`references/legal.md` — that's the canonical version this file builds on top of.
 
 ## Fiverr vs Upwork on AI
 

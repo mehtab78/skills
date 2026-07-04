@@ -35,11 +35,11 @@ These aren't style preferences; breaking them risks the user's account:
 
 | Task | Reference |
 |------|-----------|
-| Writing proposals that get replies | `proposals.md` |
-| Profile, title, bio, rate | `profile.md` |
-| Client messaging & negotiation | `communication.md` |
-| Fees, JSS, contracts, Connects | `platform.md` |
-| ToS boundaries & compliance | `legal.md` |
+| Writing proposals that get replies | `references/proposals.md` |
+| Profile, title, bio, rate | `references/profile.md` |
+| Client messaging & negotiation | `references/communication.md` |
+| Fees, JSS, contracts, Connects | `references/platform.md` |
+| ToS boundaries & compliance | `references/legal.md` |
 
 ## Vetting a job before spending Connects
 

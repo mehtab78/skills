@@ -38,7 +38,9 @@ to frozen funds and permanent bans. Stay well inside the lines.
    third-party AI tools.
 3. **Be accurate.** Don't claim capabilities you don't have.
 4. **Mind jurisdiction.** The client's location can set the legal requirements.
-   GDPR applies for EU clients, for instance.
+   GDPR applies for EU clients, for instance. For the fuller cross-jurisdiction
+   disclosure and copyright framework, see the `freelance` skill's
+   `references/legal.md`.
 
 ## Safe habits
 

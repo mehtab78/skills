@@ -60,10 +60,10 @@ Each type has its own rhythm; load the relevant file:
 
 | Category | Reference |
 |----------|-----------|
-| Buying (domains, items, collectibles) | `buying.md` |
-| Selling (services, products) | `selling.md` |
-| P2P marketplaces (eBay, FB, Vinted) | `p2p.md` |
-| Professional (salary, contracts) | `professional.md` |
+| Buying (domains, items, collectibles) | `references/buying.md` |
+| Selling (services, products) | `references/selling.md` |
+| P2P marketplaces (eBay, FB, Vinted) | `references/p2p.md` |
+| Professional (salary, contracts) | `references/professional.md` |
 
 ## Build a profile over time
 

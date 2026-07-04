@@ -19,7 +19,7 @@ freelancer's client agreements to a larger contract library.
 
 **Hard boundary:** this skill handles *facts and dates*, not legal judgment. It
 never interprets clauses, rates a contract as safe/risky, or advises whether to
-sign; it points the user to a lawyer for that. See `security.md`.
+sign; it points the user to a lawyer for that. See `references/security.md`.
 
 ## Storage
 
@@ -38,11 +38,15 @@ sign; it points the user to a lawyer for that. See `security.md`.
 
 Signature states move `draft → pending-them → pending-us → executed`.
 
+If the `clients` skill is also installed, this is still the canonical home for
+the executed file and its metadata — store it at `~/contracts/{name}/`, and
+just link to it (don't copy it) from that client's `documents/` folder.
+
 ## What it does
 
 1. **Extract key terms:** parties, dates, amounts, notice periods, auto-renewal.
 2. **Track deadlines:** renewals, termination windows, milestone payments.
-3. **Alert ahead of time:** 90/60/30-day warnings (see `alerts.md`).
+3. **Alert ahead of time:** 90/60/30-day warnings (see `references/alerts.md`).
 4. **Answer clause lookups:** "what's my cancellation notice on X?"
 5. **Search across contracts:** "everything expiring this quarter."
 6. **Track versions:** link amendments to the parent contract.
@@ -52,15 +56,15 @@ Signature states move `draft → pending-them → pending-us → executed`.
 
 1. Create `~/contracts/{name}/` and save the file.
 2. Extract into `meta.md`: parties, effective date, term, value, renewal terms,
-   notice period (pattern in `analysis.md`).
+   notice period (pattern in `references/analysis.md`).
 3. Add it to `index.md`.
-4. Set the deadline alerts per `alerts.md`.
+4. Set the deadline alerts per `references/alerts.md`.
 
 ## References
 
 | Need | File |
 |------|------|
-| Role-specific workflows (consumer, landlord, freelancer, legal) | `roles.md` |
-| Term extraction + clause lookups + red flags | `analysis.md` |
-| Alert schedule and dashboards | `alerts.md` |
-| Security, privacy, and legal boundaries | `security.md` |
+| Role-specific workflows (consumer, landlord, freelancer, legal) | `references/roles.md` |
+| Term extraction + clause lookups + red flags | `references/analysis.md` |
+| Alert schedule and dashboards | `references/alerts.md` |
+| Security, privacy, and legal boundaries | `references/security.md` |

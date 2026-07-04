@@ -47,13 +47,16 @@ off:
 - **Interested, needs info** → reply within a few hours with the one detail that
   unblocks them.
 - **Repeat question** → keep a few saved answers, but vary the wording (see
-  `scaling.md`; identical text at volume looks automated).
-- **Suspicious** → check it against `red-flags.md` before engaging.
+  `references/scaling.md`; identical text at volume looks automated).
+- **Suspicious** → check it against `references/red-flags.md` before engaging.
 
 **Defending scope:** when a buyer asks for something beyond the order, don't
 absorb it silently and don't refuse flatly. Name it as extra and offer a custom
 offer: *"That's outside the original order. I can add it for $X as a custom
-offer, want me to send it?"*
+offer, want me to send it?"* If the buyer pushes back hard on that price rather
+than just asking for more scope, that's a negotiation, not scope defense — hand
+it to the `negotiate` skill, which handles counteroffers with proper limits and
+approval steps.
 
 ## Seller levels
 
@@ -72,7 +75,7 @@ Fiverr changes them, so verify the current values:
 The first handful of orders are the hardest: no reviews means no trust. The
 play is: price competitively to win the first orders, over-deliver, collect
 reviews, then raise prices in steps. Full zero-to-first-$100 roadmap in
-`getting-started.md`.
+`references/getting-started.md`.
 
 ## Scaling up
 
@@ -80,7 +83,7 @@ Once you're juggling 20+ orders a month, the risk shifts from *finding work* to
 *staying reliable and staying compliant*. That means a single view of every open
 order, templated replies with real variation, human-realistic timing, and clean
 hand-offs if you bring on help. Workflows and the automation-safety guardrails
-are in `scaling.md`.
+are in `references/scaling.md`.
 
 ## Legal & AI disclosure
 
@@ -88,4 +91,4 @@ Fiverr permits AI tools across all categories; the obligations are to own the
 rights to what you deliver, add genuine human value, and answer honestly if a
 buyer asks whether you used AI. Never deny it. EU buyers carry higher
 transparency expectations. Details and the Fiverr-vs-Upwork contrast are in
-`legal.md`.
+`references/legal.md`.

@@ -34,13 +34,13 @@ Keep agency data under `~/agency/`:
 
 - **Intake:** a brief arrives (email, audio, notes) → extract scope, budget,
   timeline → produce a structured brief → flag red flags → open a client folder.
-  See `onboarding.md`.
+  See `references/onboarding.md`.
 - **Pricing:** take the scope → apply the rate card and complexity multipliers →
-  build a proposal → sanity-check against similar past projects. See `pricing.md`.
+  build a proposal → sanity-check against similar past projects. See `references/pricing.md`.
 - **Projects:** one board of every active project → alert on deadlines → catch
-  stalls → weekly status per client. See `projects.md`.
+  stalls → weekly status per client. See `references/projects.md`.
 - **Deliverables:** turn rough input into a reviewed, on-brief deliverable, in
-  the right formats. See `deliverables.md`.
+  the right formats. See `references/deliverables.md`.
 
 ## Rules that keep an agency healthy
 
@@ -49,7 +49,7 @@ Keep agency data under `~/agency/`:
 - **Track cost against estimate** and speak up the moment a project starts losing
   money.
 - **Learn from corrections:** fold them back into templates and the knowledge
-  base (`feedback.md`).
+  base (`references/feedback.md`).
 - **Carry context across sessions:** refer to each client's history, don't start
   cold.
 
@@ -57,14 +57,14 @@ Keep agency data under `~/agency/`:
 
 | Area | File |
 |------|------|
-| Client intake & discovery | `onboarding.md` |
-| Pricing, estimates, proposals | `pricing.md` |
-| Project board & deadlines | `projects.md` |
-| Client communication | `communication.md` |
-| Producing deliverables | `deliverables.md` |
-| Team & subcontractor coordination | `team.md` |
-| Specifics per agency type | `by-type.md` |
-| Learning & improvement system | `feedback.md` |
+| Client intake & discovery | `references/onboarding.md` |
+| Pricing, estimates, proposals | `references/pricing.md` |
+| Project board & deadlines | `references/projects.md` |
+| Client communication | `references/communication.md` |
+| Producing deliverables | `references/deliverables.md` |
+| Team & subcontractor coordination | `references/team.md` |
+| Specifics per agency type | `references/by-type.md` |
+| Learning & improvement system | `references/feedback.md` |
 
 Set up `~/agency/config.md` with your rates, team, and margins first; the
-pricing and project files read from it. Format is in `pricing.md`.
+pricing and project files read from it. Format is in `references/pricing.md`.

@@ -20,7 +20,7 @@ volume, because volume burns reputation and time.
 ## Keep state in a workspace
 
 Persist everything in `~/job-search/` so context survives across sessions. See
-`memory-template.md` for the files to create and their shape:
+`references/memory-template.md` for the files to create and their shape:
 
 ```
 ~/job-search/
@@ -42,7 +42,7 @@ Persist everything in `~/job-search/` so context survives across sessions. See
 - **Verify "remote" claims.** Check for geographic restrictions, timezone-overlap
   expectations, and tax/legal fine print before treating a role as truly remote.
 - **Research before applying.** For each target, look at financial health,
-  recent news, and current-year Glassdoor sentiment. Details in `research.md`.
+  recent news, and current-year Glassdoor sentiment. Details in `references/research.md`.
 - **Track every application's state** in `applications.md`: company, role, date,
   status, next action, contacts, and follow-up reminders.
 
@@ -65,7 +65,7 @@ Persist everything in `~/job-search/` so context survives across sessions. See
 | Career changer | Transferable-skills narrative, bridge roles |
 | Urgent need | Speed, temporary options, immediate income |
 
-For interview prep, see `interviews.md`.
+For interview prep, see `references/interviews.md`.
 
 ## Traps to avoid
 

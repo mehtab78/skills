@@ -30,7 +30,7 @@ Match the platform to the kind of work, not hype:
 | Premium, vetted work | Toptal | Curated top-tier talent |
 
 More detail per platform (Connects, fees, levels, screening) is in
-`platforms.md`.
+`references/platforms.md`.
 
 ## A proposal that wins (Upwork / Freelancer)
 
@@ -71,4 +71,4 @@ Walk away from any of these, on any platform:
 - **Every platform:** their terms forbid full automation; a human must review
   and approve all proposals and deliverables.
 
-The legal deep-dive (liability, copyright, fraud line) is in `legal.md`.
+The legal deep-dive (liability, copyright, fraud line) is in `references/legal.md`.

@@ -40,7 +40,10 @@ scattered inboxes. Keep it in `~/clients/` and grow it as you go.
 
 Within a client folder, keep documents sorted (`contracts/`, `invoices/`,
 `proposals/`, `assets/`, and a `received/` for their materials), one folder per
-project, and a running communications log.
+project, and a running communications log. If the `contracts` skill is also
+installed, that's the canonical home for executed contracts and their
+metadata (`~/contracts/{name}/`) — keep a link in this client's `contracts/`
+folder instead of a second copy of the file.
 
 ## What a profile holds
 

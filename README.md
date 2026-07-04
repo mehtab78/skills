@@ -45,15 +45,15 @@ or a project's `.claude/skills/`).
 Install everything:
 
 ```bash
-git clone https://github.com/mehtab78/freelance-skills /tmp/freelance-skills
-cp -r /tmp/freelance-skills/skills/* ~/.claude/skills/
+git clone https://github.com/mehtab78/skills /tmp/skills
+cp -r /tmp/skills/skills/* ~/.claude/skills/
 ```
 
 Or just one skill:
 
 ```bash
-git clone https://github.com/mehtab78/freelance-skills /tmp/freelance-skills
-cp -r /tmp/freelance-skills/skills/fiverr-gig-optimizer ~/.claude/skills/
+git clone https://github.com/mehtab78/skills /tmp/skills
+cp -r /tmp/skills/skills/fiverr-gig-optimizer ~/.claude/skills/
 ```
 
 Then describe what you need in natural language — e.g. *"help me set up my
@@ -66,17 +66,21 @@ for this job post"* — and the matching skill triggers.
 .
 ├── skills/
 │   ├── fiverr-gig-optimizer/   # gig generator (SKILL.md + references/ + scripts/)
-│   ├── fiverr/                 # Fiverr selling & scaling (advisory)
-│   ├── upwork/                 # Upwork proposals & profile (advisory)
-│   ├── freelance/              # cross-platform strategy (advisory)
-│   ├── job-search/             # job/contract-role hunting (advisory)
-│   ├── negotiate/              # rate & deal negotiation (advisory)
-│   ├── clients/                # personal client system (advisory)
-│   ├── contracts/              # contract tracking & alerts (advisory)
-│   └── agency/                 # scaling into an agency (advisory)
+│   ├── fiverr/                 # Fiverr selling & scaling (SKILL.md + references/)
+│   ├── upwork/                 # Upwork proposals & profile (SKILL.md + references/)
+│   ├── freelance/              # cross-platform strategy (SKILL.md + references/)
+│   ├── job-search/             # job/contract-role hunting (SKILL.md + references/)
+│   ├── negotiate/              # rate & deal negotiation (SKILL.md + references/)
+│   ├── clients/                # personal client system (SKILL.md only)
+│   ├── contracts/              # contract tracking & alerts (SKILL.md + references/)
+│   └── agency/                 # scaling into an agency (SKILL.md + references/)
 ├── LICENSE                     # MIT
 └── README.md
 ```
+
+Every skill keeps its detail in `references/` — `SKILL.md` stays short and
+points there for depth. `clients` is the one exception: it's small enough that
+everything fits in `SKILL.md` alone.
 
 ## Requirements
 
